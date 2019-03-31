@@ -1,3 +1,8 @@
+html {
+	background-image:url(http://ovationtyres.com.au/images/591a718467e74.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+}
 
 body {
     font-family:calibri;
@@ -7,51 +12,20 @@ body {
     transform: translate(-50%, -60%);
 }
 #title{
-    color:white
+    color:white;
 }
 h1 {
     text-align: center;
     background-color: rgba(50, 50, 50, 0.9);
     color: white;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 3%;	
 }
 
 p {
     text-align: center;
     width: 500px;
     padding-bottom: -3%;
-}
-
-button {
-    text-align: center;
-    background-color: rgba(0, 100, 200, 0.8);
-    color: white;
-    border: none;
-    width: 250px;
-	height: 50px;
-    border-radius: 12px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-button:hover {
-    background-color: rgba(0, 75, 150);
-    color: rbga(150, 150, 150, 0.3);
-    border: none;
-    border-radius: 12px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 20px;
 }
 
 input {
@@ -63,6 +37,7 @@ input {
     margin-bottom: -30px;
     margin-top: -5px;
 }
+
 #radioType1{
     display: inline-block;
     width:50px;
@@ -113,3 +88,16 @@ input {
     margin-left: auto;
     margin-right: auto;
 }
+
+#button:hover {
+	background-color: rgba(0, 75, 150);
+    color: rbga(150, 150, 150, 0.3);
+    border: none;
+    border-radius: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
