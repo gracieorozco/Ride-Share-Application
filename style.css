@@ -101,3 +101,21 @@ input {
     margin-bottom: 20px;
 }
 
+.modal-open[style] {
+padding-right: 0px !important;
+}
+
+#button-close {
+    background-color: rgba(0, 100, 200, 0.8);
+	text-align:center;
+    color: white;
+    border: none;
+    width: 100px;
+	height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: -5%;;
+	
+}

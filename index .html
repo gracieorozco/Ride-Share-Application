@@ -166,7 +166,7 @@
                         }
                         
                         test.ref('user/').orderByChild('username').on('child_added', function(snapshot){
-                            if(snapshot.val().category == 'Driver'){
+                            if(snapshot.val().category == 'Driver' && dateLeave == snapshot.val().DateLeave){
                                 var DriverrLocation = ''
                                 if(snapshot.val().StreetLocation != ''){
                                     DriverrLocation += snapshot.val().StreetLocation.replace(/\s+/g, '') + ','
@@ -291,19 +291,19 @@
         <div class="modal fade" id="myModal" role="dialog" >
             <div class="modal-dialog" style="width:80%;margin-top: 50%;">
                 <div class="modal-content" >
-                    <div class="modal-header" style="size: 34px;">
+                    <div class="modal-header" style="size: 28px;">
+					 <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times</button>
                         <h4 class="modal-title" id="modal-title">Notice</h4>
                     </div>
 					<div class="modal-body" id="modal-body"> 
-					 <p p class="modal-title" style="text-align:left; margin-bottom: -5%;white-space:pre-wrap">There are no results yet. (click outside this box to exit)</p>
+					 <p p class="modal-title" style="text-align:left; margin-bottom: -5%;">There are no results yet.</p>
 					 </div>
                     <div class="modal-body" id="modal-body"> 
                         <p class="modal-title" style="text-align:left;" ></p>
                         <p p class="modal-title" style="text-align:left;"></p>
                     </div>
-
+						<button type="button" id="button-close" data-dismiss="modal" style="width: 50px; margin-left: 85%;">Close</button>
                 </div>
-
             </div>
         </div>
 		
