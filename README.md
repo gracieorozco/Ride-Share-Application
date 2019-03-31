@@ -3,7 +3,3 @@
 <h2>Team</h2>
 <li>Graciela Orozco</li>
 <li>Vincent Cheng</li>
-
-<h2>Team</h2>
-<li>Graciela Orozco</li>
-<li>Vincent Cheng</li>
